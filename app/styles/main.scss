@@ -1,0 +1,68 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "bower_components/font-awesome/scss/font-awesome.scss";
+// endbower
+
+@import "layout/_hero";
+@import "layout/_timeline";
+
+// vividin gradient:
+// background: linear-gradient(to bottom left, #A20218, #D27210);
+
+html, body {
+    height: 100%;
+    position: relative; // for scroll spy
+}
+
+.navbar-default {
+    background-color: rgba(255, 255, 255, .75);
+    border: none;
+}
+
+
+#services {
+    .box {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+}
+
+#references {
+    .box {
+        margin-bottom: 100px;
+    }
+}
+
+#logoline {
+    .row {
+        margin-bottom: 50px;
+    }
+    .ykn img {
+        max-height: 100px;
+        margin: auto;
+    }
+}
+
+#map {
+    width: 100%;
+    height: 500px;
+}
+
+section.dimm-background {
+    background-color: $gray-lighter;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+h1.section-title {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: $font-size-h1 * 1.5;
+}
