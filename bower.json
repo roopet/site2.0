@@ -6,7 +6,8 @@
     "modernizr": "~2.8.1",
     "font-awesome": "^4.5.0",
     "parallax.js": "^1.4.2",
-    "gmap3": "^6.1.0"
+    "gmap3": "^6.1.0",
+    "jquery-smooth-scroll": "^1.7.2"
   },
   "overrides": {
     "bootstrap-sass": {
